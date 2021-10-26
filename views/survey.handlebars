@@ -1,0 +1,118 @@
+<div class="row">
+    <h2>Take our Survey</h2>
+</div>
+
+<div class="row">
+    <h4>Personal Details:</h4>
+</div>
+<form action="/survey" method="post">
+<div class="row">
+    <div class="col-2">Surname</div>
+    <div class="col-1"><input class="loginInput" type="text" name="surname" value="{{surname}}" required></div>
+</div>
+
+<div class="row">
+    <div class="col-2">First Names</div>
+    <div class="col-1"><input class="loginInput" type="text" name="firstname" value="{{firstname}}" required></div>
+</div>
+
+<div class="row">
+    <div class="col-2">Contact number</div>
+    <div class="col-1"><input class="loginInput" type="tel" name="conNumber" value="{{conNumber}}" required></div>
+</div>
+
+<div class="row">
+    <div class="col-2">Date</div>
+    <div class="col-1"><input class="loginInput" type="date" name="date" value="{{date}}" required></div>
+</div>
+
+<div class="row">
+    <div class="col-2">Age</div>
+    <div class="col-1"><input class="loginInput" type="number" name="age" value="{{age}}" required></div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <h4>What is your favourite food? (You can choose more than 1 answer)</h4>
+    </div>
+</div>
+
+<div class="row">
+    <input type="checkbox" id="pizza" name="favFood" value="Pizza">
+    <label for="pizza">Pizza</label><br>
+    <input type="checkbox" id="pasta" name="favFood" value="Pasta">
+    <label for="pasta">Pasta</label><br>
+    <input type="checkbox" id="papWors" name="favFood" value="Pap and Wors">
+    <label for="papWors">Pap and Wors</label><br>
+    <input type="checkbox" id="chickSF" name="favFood" value="Chicken stir fry">
+    <label for="chickSF">Chicken stir fry</label><br>
+    <input type="checkbox" id="beefSF" name="favFood" value="Beef stir fry">
+    <label for="beefSF">Beef stir fry</label><br>
+    <input type="checkbox" id="other" name="favFood" value="Other">
+    <label for="other">Other</label><br>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <h4>On a scale of 1 to 5 indicate whether you strongly agree to strongly disagree</h4>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <table>
+            <tr>
+                <th></th>
+                <th>Stronlgy Agree(1)</th>
+                <th>Agree(2)</th>
+                <th>Neutral(3)</th>
+                <th>Disagree(4)</th>
+                <th>Stronlgy disagree(5)</th>
+            </tr>
+            <tr>
+                <td>I like to eat out</td>
+                <td><input type="radio" id="Stronlgy Agree" name="eatOut" value="1"></td>
+                <td><input type="radio" id="Agree" name="eatOut" value="2"></td>
+                <td><input type="radio" id="Neutral" name="eatOut" value="3"></td>
+                <td><input type="radio" id="Disagree" name="eatOut" value="4"></td>
+                <td><input type="radio" id="Stronlgy disagree" name="eatOut" value="5"></td>
+            </tr>
+            <tr>
+                <td>I like to watch movies</td>
+                <td><input type="radio" id="Stronlgy Agree" name="movies" value="1"></td>
+                <td><input type="radio" id="Agree" name="movies" value="2"></td>
+                <td><input type="radio" id="Neutral" name="movies" value="3"></td>
+                <td><input type="radio" id="Disagree" name="movies" value="4"></td>
+                <td><input type="radio" id="Stronlgy disagree" name="movies" value="5"></td>
+            </tr>
+            <tr>
+                <td>I like to watch TV</td>
+                <td><input type="radio" id="Stronlgy Agree" name="tv" value="1"></td>
+                <td><input type="radio" id="Agree" name="tv" value="2"></td>
+                <td><input type="radio" id="Neutral" name="tv" value="3"></td>
+                <td><input type="radio" id="Disagree" name="tv" value="4"></td>
+                <td><input type="radio" id="Stronlgy disagree" name="tv" value="5"></td>
+            </tr>
+            <tr>
+                <td>I like to listen to the radio</td>
+                <td><input type="radio" id="Stronlgy Agree" name="likeRadio" value="1"></td>
+                <td><input type="radio" id="Agree" name="likeRadio" value="2"></td>
+                <td><input type="radio" id="Neutral" name="likeRadio" value="3"></td>
+                <td><input type="radio" id="Disagree" name="likeRadio" value="4"></td>
+                <td><input type="radio" id="Stronlgy disagree" name="likeRadio" value="5"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-12 center">
+        <form action="/" method="get">
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+
+</div>
+
+</form>
