@@ -16,13 +16,14 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
+  color: #152A58;
+  background-color: #F8F8F9;
 }
 
 /* ROOT FONT STYLES */
 
 * {
   font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
   line-height: 1.5;
 }
 
@@ -249,13 +250,18 @@ p {
   }
 }
 
+#mainBtn {
+  position: absolute;
+  bottom: 50%;
+}
+
 .btn {
   display: inline-block;
   margin: auto;
   border-radius: 2em;
-  border: 1pt solid darkgray;
+  border: 1pt solid #5095B6;
   padding: 5px 10px;
-  background-color: darkgray;
+  background-color: #5095B6;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 12pt;
   font-weight: bold;
@@ -263,7 +269,7 @@ p {
 }
 
 .btn:active {
-  box-shadow: 2px 2px 2px 2px rgb(141, 141, 141);
+  box-shadow: 2px 2px 2px 2px #5095B6;
 }
 
 .btn:hover {
@@ -279,3 +285,25 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+input {
+  background-color: #77BDE1;
+  border-radius: 2em;
+  border: none;
+}
+
+.txtbox {
+  width: 20em;
+  height: 2em;
+  padding: 0.5em;
+}
+
+.surveyTitle {
+  margin: 0;
+}
+
+
+
+3A9BD2
+
+
